@@ -11,6 +11,6 @@ Particle Swarm Optimization is a stochastic meta-heuristic optimization strategy
 as particles. Each particle spawns with a random position and velocity where velocity is updated by adding the inertia, cognitive, and social components together and the position
 is updated by adding the position of old and new velocity together.
 
-The inertia component is the product of the inertia weight and current velocity
-The cognitive component is the product of a random # between 0-1, the exploration coefficient, and the difference between the particle's best position and its current position
-The social component is the product of a random # between 0-1, the exploitation coefficient and the difference between the best position found overall and its current position
+The inertia component is the product of the inertia weight and current velocity.
+The cognitive component is the product of a random # between 0-1, the exploration coefficient, and the difference between the particle's best position and its current position.
+The social component is the product of a random # between 0-1, the exploitation coefficient and the difference between the best position found overall and its current position.
